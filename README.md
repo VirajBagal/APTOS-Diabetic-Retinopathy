@@ -8,3 +8,5 @@ My first Deep Learning Competition. Involves classifying images of eyes in one t
 3.   Now, I apply heavy data augmentation using  imgaug library. Apparently, heavy data augmentation didn't help. 
 
 4. I applied GaussianBlur to enhance image to some extent. It improved my score by 0.6 percent. 
+
+5. In DataAugmentation, I changed zoom range from 0.15 to 0.3 and my LB (LeaderBoard) increased from 0.754 to 0.778. It was quite significant jump in LB. 

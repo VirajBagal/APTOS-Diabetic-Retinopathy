@@ -5,4 +5,6 @@ My first Deep Learning Competition. Involves classifying images of eyes in one t
 
 2.  Many images had lot of black unnecessary background. I saw one kernel applying cropping image algorithm. Basically, some threshold was         defined. All pixels in an image with intensity lesser than that threshold were removed . I used that preprocessing, same data augmentation     as before and used DenseNet-121, EfficientNet B4 and EfficientNet B5. EfficientNet B5 came out to be the best. 
 
-3.   Now, I apply heavy data augmentation using  imgaug library. 
+3.   Now, I apply heavy data augmentation using  imgaug library. Apparently, heavy data augmentation didn't help. 
+
+4. I applied GaussianBlur to enhance image to some extent. It improved my score by 0.6 percent. 

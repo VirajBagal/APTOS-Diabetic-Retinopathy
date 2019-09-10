@@ -12,3 +12,6 @@ My first Deep Learning Competition. Involves classifying images of eyes in one t
 5. In DataAugmentation, I changed zoom range from 0.15 to 0.3 and my LB (LeaderBoard) increased from 0.754 to 0.778. It was quite significant jump in LB. 
 
 6. I changed zoom range from 0.3 to 0.45. LB increased from 0.778 to 0.788. It seems that the images in test set are really zoomed out. 
+7. I trained on Old competition data with around 35000 images. Thenn finetuned the model on new data. Butmy score didn't improve. I tried various augmentations as well as preprocessing but nothing helped. 
+8. Only using new data, I had got 4-5 submissions in the range of 0.795. Blending two of them gave me a boost to 0.805 in public LB. I submitted it for final score. 
+9. The shakeup in the competition was huge. From the beginning itself it was clear that as CV amd LB are far away, the train test distribution is very different. Neverthelss, I dropped only 22 places and secured 311th position. There were many whose models overfit and they dropped down by more than 100 places. 

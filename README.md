@@ -1,5 +1,5 @@
 # APTOS-Diabetic-Retinopathy
-My first Deep Learning Competition. Involves classifying images of eyes in one the categories of Diabetic Retinopathy. It is multiclass classification problem. My basic workflow was training in one kernel and inference over the test set in another kernel. I shall include the inference kernel once the competition is over. I have uploaded my final private leaderboard rank image. I secured 311th position out of 2987 candidates.
+My first Deep Learning Competition. Involves classifying images of eyes in one the categories of Diabetic Retinopathy. It is multiclass classification problem. My basic workflow was training in one kernel and inference over the test set in another kernel. I shall include the inference kernel once the competition is over. I have uploaded my final private leaderboard rank image. I secured 296th position out of 2987 candidates.
 
 1. Initally, I used DenseNet-121 and ResNet50 for comparison. I did the basic img color conversion from BGR to RGB and resized the image to         256*256 size. I used the basic data augmentation from ImageDataGenerator namely, zoom_range, horizontal_flip, rotation_range and vertical       flip. DenseNet proved to be better than ResNet50. 
 
